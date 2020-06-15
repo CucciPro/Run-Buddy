@@ -56,7 +56,7 @@ header {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    align-items: flex-start
+    align-items: flex-start;
   }
 
   .hero-cta {
@@ -338,7 +338,7 @@ header {
 
   /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
-  header h1 a {
+  header nav ul li a {
     /* this will be applied on any screen smaller than 980px */
     color: tomato;
   }
